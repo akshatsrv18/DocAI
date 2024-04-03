@@ -43,7 +43,8 @@ def audio_to_txt(file_path):
 
 
     model = whisper.load_model("base")
-    audio = "uploads\\"+file_path.split("\\")[-1]
+    # audio = "uploads\\"+file_path.split("\\")[-1]
+    audio = file_path
     print(audio)
     # D:\Poc open_AI\ai_sync\uploads\End To End LLM Project Using LLAMA 2- Open Source LLM Model From Meta.mp3
     
