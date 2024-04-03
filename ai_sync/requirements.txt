@@ -9,4 +9,3 @@ accelerate
 faiss-cpu
 openai-whisper
 python-ffmpeg
-ffmpeg
