@@ -58,7 +58,8 @@ if uploaded_file is not None:
     st.write(f"File saved to: {file_path}")
     if uploaded_file.name.split(".")[1]=="mp3":
         print(f"File saved to: {file_path}")
-        filename = "uploads\\"+file_path.split("\\")[1]
+        # filename = "uploads\\"+file_path.split("\\")[1]
+        filename = file_path
         print(filename)
         data = audio_to_txt(filename)
     else:
